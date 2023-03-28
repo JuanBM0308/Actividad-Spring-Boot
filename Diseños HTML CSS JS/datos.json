@@ -1,0 +1,50 @@
+[
+    {
+        "codigo": 1,
+        "nombre": "Camila",
+        "apellido": "Garzon",
+        "materias": [
+            "Matemáticas",
+            "Español",
+            "Química"
+        ],
+        "notas": [
+            2.2,
+            3.7,
+            5.0
+        ],
+        "promedio": 3.6333334
+    },
+    {
+        "codigo": 2,
+        "nombre": "Carlos",
+        "apellido": "Roldan",
+        "materias": [
+            "Ingles",
+            "Frances",
+            "Chino"
+        ],
+        "notas": [
+            4.8,
+            4.0,
+            4.0
+        ],
+        "promedio": 0.0
+    },
+    {
+        "codigo": 3,
+        "nombre": "Fernando",
+        "apellido": "Aguilar",
+        "materias": [
+            "Física",
+            "Mecanica",
+            "Aviación"
+        ],
+        "notas": [
+            4.8,
+            3.5,
+            4.2
+        ],
+        "promedio": 0.0
+    }
+]

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CSS-->
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <!--Fin CSS-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Evaluacion-Estudiantes</title>
+</head>
+<body>
+    
+    <!--Formulario-->
+    <div class="container" id="contenedor_form">
+        <form id="formulario_estu" action="#" class="bg-warning bg-opacity-75 border border-warning rounded">
+            <p class="h2">Info Estudiantes</p>
+            <div class="mb-3">
+                <label class="form-label">Codigo</label>
+                <input id="codigo" type="number" class="form-control">
+                <div class="form-text">Codigo para el estudiante.</div>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Nombre</label>
+                <input id="nombre" type="text" class="form-control">
+                <div class="form-text">Nombre del estudiante.</div>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Apellido</label>
+                <input id="apellido" type="text" class="form-control">
+                <div class="form-text">Apellido del estudiante.</div>
+            </div>
+            <div class="input-group">
+                <span class="input-group-text">Materias</span>
+                <input type="text" id="materia_a" placeholder="Materia A" class="form-control">
+                <input type="text" id="materia_b" placeholder="Materia B" class="form-control">
+                <input type="text" id="materia_c" placeholder="Materia C" class="form-control">
+            </div>
+            <div class="input-group">
+                <span class="input-group-text">Notas</span>
+                <input type="number" id="nota_a" placeholder="Nota A" class="form-control">
+                <input type="number" id="nota_b" placeholder="Nota B" class="form-control">
+                <input type="number" id="nota_c" placeholder="Nota C" class="form-control">
+            </div>
+            <div id="botones">
+                <button id="enviar" type="button" class="btn btn-light">Enviar</button>
+                <button id="listar" type="button" class="btn btn-light">Listar</button>
+            </div>
+        </form>
+    </div>
+
+    <div class="container" id="contenedor_form">
+        <form id="formulario_estu" action="#" class="bg-warning bg-opacity-75 border border-warning rounded">
+            <div class="mb-3">
+                <label class="form-label">Obetener Promedio:</label>
+                <input id="buscar_code" type="number" placeholder="Codigo del estudiante" class="form-control">
+            </div>
+            <div id="botones">
+                <button id="promedio" type="button" class="btn btn-secondary">Promedio</button>
+            </div>
+        </form>
+    </div>
+
+    <div id="promedio_realizado" class="d-flex justify-content-cente border rounded"></div>
+    <table id="tabla" class="table table-dark table-striped"></table>
+
+    <!--JS-->
+    <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+    <!--Fin JS-->
+</body>
+</html>

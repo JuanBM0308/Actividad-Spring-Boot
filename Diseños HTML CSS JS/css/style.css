@@ -1,0 +1,39 @@
+#contenedor_form {
+    width: 40%;
+    margin-top: 2%;
+}
+
+
+#formulario_estu {
+    padding: 2%;
+}
+
+.h2 {
+    text-align: center;
+}
+
+#botones {
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+}
+
+#envio {
+    margin-right: 2px;
+}
+
+#listar {
+    margin-left: 2px;
+}
+
+.input-group {
+    margin-top: 1%;
+}
+
+#tabla {
+    margin-top: 2%;
+}
+
+#promedio_realizado {
+    margin: 20px;
+}
